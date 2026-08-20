@@ -27,9 +27,7 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
-  public void intentionally_Failed() {
-    assertTrue(false);
-  }
+  
   
 
   @Test
